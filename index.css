@@ -1,0 +1,52 @@
+
+*{
+    align-items: center;
+}
+body{
+    background-color: rgb(139, 40, 165);
+    padding-bottom: 5px;
+    height: 100vh;
+    width: 100vh;
+}
+div.main_heading{
+    position: relative;
+    background-color: rgb(110,42,132);
+    padding: 5px;
+    margin-top: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 30;
+    height: 60px;
+    width: 1210px;
+    font-size: 45px;
+    text-align: center;
+}
+form{
+    align-items: center;
+    position: relative;
+    background-color:rgb(200, 111, 255);
+    padding: 19px;
+    height: 700px;
+    width: 800px;
+    margin-top: 19px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 19px;
+}
+legend{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+fieldset{
+    font-size: 20px;
+}
+#resume_display{
+    background-color: rgb(167, 105, 221);
+    font-size: large;
+    text-align:center;
+    width: 838px;
+    height: 750px;
+    margin-left: 230px;
+    margin-right: 230px;;
+}

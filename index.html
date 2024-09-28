@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume by PALWASHA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main_heading"> Editable Resume </div>
+
+    <form class="RB" action= "resume-builder">
+        
+       <div>
+        <fieldset>
+
+            <legend><b>RESUME</b></legend>
+
+            <label for="name">NAME: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+
+            <label for="fathername">FATHER NAME: </label>
+            <input type="text" name="fathername" id="fathername" placeholder="Enter your father name" required>
+            <br>
+            <br>
+
+            <label for="phone"> PHONE NUMBER: </label>
+            <input type="number" name="phone" id="phone" placeholder="Enter your personal phone number" required>
+            <br>
+            <br>
+
+            <label for="NIC">NIC: </label>
+            <input type="number" name="NIC" id="NIC" placeholder="Enter you CNIC number" required>
+            <br>
+            <br>
+
+            <label for="NIC">E-MAIL: </label>
+            <input type="email" name="mail" id="mail" placeholder="Enter you E-mail" required>
+            <br>
+            <br>
+
+            <label for="nationality">NATIONALITY: </label>
+            <input type="text" name="nationality" id="nationality" placeholder="Enter your nationality" required>
+            <br>
+            <br>
+
+            <label for="city">CITY: </label>
+            <input type="text" name="city" id="city" placeholder="Enter your city" required>
+            <br>
+            <br>
+
+            <label for="mother tongue">MOTHER TONGUE: </label>
+            <select name="mother tongue" id="mother tongue" required>
+                <option value="choose your mother tongue">Choose your mother tongue</option>
+                <option value="Punjabi">Punjabi</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Saraiki">Saraiki</option>
+                <option value="Sindhi">Sindhi</option>
+                <option value="Balochi">Balochi</option>
+                <option value="Pushto">Pushto</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="religion">RELIGION: </label>
+            <select name="religion" id="religion" required>
+                <option value="choose your religion">Choose your religion</option>
+                <option value="Christianity">Christianity</option>
+                <option value="Islam">Islam</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="Sikhism">Sikhism</option>
+                <option value="None">None</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="edu">EDUCATION: </label>
+            <select name="edu" id="edu" required>
+                <option value="choose your qualification">Choose your qualification</option>
+                <option value="PhD">PhD</option>
+                <option value="Masters">Masters</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Associate">Associate Ordinary Bachelor</option>
+                <option value="Inter">Inter</option>
+                <option value="Matric">Matric</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="institute">INSTITUTE: </label>
+            <input type="text" name="institute" id="institute" placeholder="Enter" required>
+            <br>
+            <br>
+            
+            <label for="exp">EXPERIENCE: </label>
+            <input type="text" name="exp" id="exp" placeholder="Enter your experience" required>
+            <br>
+            <br>
+
+            <label for="skills">SKILLS: </label>
+            <input type="text" name="skills" id="skills" placeholder="Enter your skills" required>
+            <br>
+            <br>
+
+            <button> GENERATE RESUME</button>
+
+        </fieldset>
+       </div>
+    </form>
+
+    <div id="resume_display">
+       
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
